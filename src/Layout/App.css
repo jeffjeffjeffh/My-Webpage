@@ -1,0 +1,27 @@
+html {
+  font-size: 24px;
+  background-color: #d7f7ca;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  min-height: 70vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  padding: 0 1rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}

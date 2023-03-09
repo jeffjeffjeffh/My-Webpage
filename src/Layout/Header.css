@@ -1,0 +1,100 @@
+header {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+header h1 {
+  color: rgb(255, 254, 213);
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+header h2 {
+  color: rgb(255, 254, 213);
+}
+
+header nav {
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+header nav ul li .link:link {
+  color: #85c7f2;
+}
+
+header nav ul li .link:visited {
+  color: #85c7f2;
+}
+
+header nav ul li .link:hover {
+  color: #fcab64;
+}
+
+header nav ul li .link:active {
+  color: whitesmoke;
+}
+
+header img {
+  border-radius: 2rem;
+  width: 15%;
+  max-width: 150px;
+  min-width: 110px;
+  padding-bottom: 1rem;
+}
+
+header hr {
+  width: 78%;
+  height: 0.1rem;
+  margin: 0;
+}
+
+/* QUERIES */
+@media all and (min-width: 670px) {
+  header {
+    align-items: flex-end;
+    padding: 0.5rem 2rem;
+  }
+
+  header h2 {
+    padding: 0;
+  }
+
+  header img {
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
+    padding-bottom: 0;
+  }
+
+  header hr {
+    width: 78%;
+    height: 0.1rem;
+    margin: 0;
+  }
+
+  header nav ul {
+    padding: 0 0 0 5rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  header h1 {
+    font-size: 4rem;
+  }
+
+  header nav ul {
+    padding: 0 0 0 5rem;
+    justify-content: space-evenly;
+  }
+}

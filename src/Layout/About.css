@@ -1,0 +1,28 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.about h4 {
+  margin-bottom: 0;
+}
+
+.about ul {
+  flex-direction: column;
+  padding: 0;
+  gap: 0.5rem;
+}
+
+.about li {
+}
+
+.about hr {
+  width: 60%;
+  height: 2px;
+}
